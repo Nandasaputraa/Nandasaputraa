@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akusayangkamubub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="mylove.png" alt="Foto Romantis" class="photo">
+        <h1 class="title">i love you 3000 bub ❤️</h1>
+        <p class="message">ada kamu yang datang dihidupku membuat aku merasakan perasaan yang belum aku rasakan sebelumnya, aku akan terus berjuang untuk kamu bub, aku sayang banget sama kamu bub, i stay with you forever.</p>
+        <div class="heart-container">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        <button class="button" onclick="showSecret()">Klik untuk lihat rahasia 💕</button>
+        <p id="secret-message" class="hidden">aku mencintaimu dan akan selalu manjaga dan menemanimu terus menerus malaikat suci🤩🥰</p>
+    </div>
+    <script>
+        function showSecret() {
+            const message = document.getElementById("secret-message");
+            message.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
